@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prachi Garg | Data Science & AI/ML Engineer Portfolio</title>
+  <meta name="description" content="Professional portfolio of Prachi Garg, an Aspiring Data Science and AI/ML Engineer. Explore projects like CogniClassAI and GovPortal, professional experience, and certifications.">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="portfolio.css">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Background Glowing Orbs -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Glassmorphic Header & Navigation -->
+  <header>
+    <a href="#" class="logo">Prachi<span>Garg</span></a>
+    <ul class="nav-links" id="navMenu">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#learning">Learning</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation menu">
+      <i class="fas fa-bars"></i>
+    </button>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="badge">
+          <span class="pulse"></span>
+          Available for Opportunities
+        </div>
+        <h1 class="hero-title">
+          Hi, I am <br><span class="name">Prachi Garg</span>
+        </h1>
+        <div class="hero-subtitle">
+          I am a <span id="typewriterText"></span>
+        </div>
+        <p class="hero-description">
+          Aspiring Data Science and AI/ML Engineer with a strong foundation in statistics, data analysis, and machine learning. Experienced in building AI-powered web solutions that solve real-world problems.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get In Touch <i class="fas fa-arrow-right"></i></a>
+          <a href="Prachi_Garg_Resume.docx" download="Prachi_Garg_Resume.docx" class="btn btn-secondary"><i class="fas fa-download"></i> Download Resume</a>
+        </div>
+        <div class="social-bar">
+          <span>Connect:</span>
+          <a href="https://github.com/prachigarg1511" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/prachi-garg-a37345327/" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://leetcode.com/prachigarg1511" target="_blank" class="social-icon" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+          <a href="mailto:prachigarg1511@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <!-- Right Side: Coding Statistics Dashboard Widget -->
+      <div class="hero-visual">
+        <div class="dashboard-card glass-panel">
+          <div class="dashboard-header">
+            <div class="dots">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            <span class="status-badge"><i class="fas fa-circle-nodes"></i> AI & DS active</span>
+          </div>
+          <div class="dashboard-stat-row">
+            <span class="dashboard-stat-label">B.Tech Specialization</span>
+            <span class="dashboard-stat-val">AI & Data Science</span>
+          </div>
+          <div class="dashboard-stat-row">
+            <span class="dashboard-stat-label">Academic CGPA</span>
+            <span class="dashboard-stat-val highlight">9.78 / 10.0</span>
+          </div>
+          <div class="dashboard-stat-row">
+            <span class="dashboard-stat-label">Primary Languages</span>
+            <span class="dashboard-stat-val">Python, C++, SQL</span>
+          </div>
+          <div class="dashboard-stat-row">
+            <span class="dashboard-stat-label">Internship Exposure</span>
+            <span class="dashboard-stat-val">2 Completed</span>
+          </div>
+          
+          <div class="leetcode-chart-container">
+            <div class="leetcode-title">
+              <span>LeetCode Profile</span>
+              <span class="highlight">@prachigarg1511</span>
+            </div>
+            <div class="leetcode-stats">
+              <div class="leetcode-stat-box">
+                <div class="leetcode-stat-num">Active</div>
+                <div class="leetcode-stat-lbl">Practice State</div>
+              </div>
+              <div class="leetcode-stat-box">
+                <div class="leetcode-stat-num">Solved</div>
+                <div class="leetcode-stat-lbl">DSA Challenges</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Counter Section -->
+  <section class="stats-counter container">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-number">9.78</div>
+        <div class="stat-label">B.Tech CGPA</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">2+</div>
+        <div class="stat-label">Internships Done</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">5+</div>
+        <div class="stat-label">Professional Certs</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Project Delivery</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education-section fade-in-section">
+    <div class="section-header">
+      <h2 class="section-title">Education</h2>
+      <p class="section-subtitle">Academic background shaping my foundation in AI & Data Science</p>
+    </div>
+
+    <div class="education-grid">
+
+      <!-- College Card -->
+      <div class="edu-card glass-panel">
+        <div class="edu-card-header">
+          <div class="edu-icon-wrap">
+            <i class="fas fa-university"></i>
+          </div>
+          <div class="edu-badge">Current</div>
+        </div>
+        <div class="edu-card-body">
+          <h3 class="edu-degree">B.Tech — Artificial Intelligence &amp; Data Science</h3>
+          <div class="edu-institute">Chandigarh Group of Colleges, Jhanjeri</div>
+          <div class="edu-meta">
+            <span><i class="fas fa-calendar-alt"></i> 2024 — 2028</span>
+            <span><i class="fas fa-map-marker-alt"></i> Mohali, Punjab</span>
+          </div>
+          <div class="edu-cgpa-bar-wrap">
+            <div class="edu-cgpa-label">
+              <span>Current CGPA</span>
+              <span class="edu-cgpa-value">9.78 / 10.0</span>
+            </div>
+            <div class="edu-cgpa-bar">
+              <div class="edu-cgpa-fill" style="width: 97.8%"></div>
+            </div>
+          </div>
+          <div class="edu-tags">
+            <span class="edu-tag">Machine Learning</span>
+            <span class="edu-tag">Data Structures</span>
+            <span class="edu-tag">Deep Learning</span>
+            <span class="edu-tag">Statistics</span>
+            <span class="edu-tag">Database Systems</span>
+            <span class="edu-tag">Python Programming</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- School Card -->
+      <div class="edu-card glass-panel">
+        <div class="edu-card-header">
+          <div class="edu-icon-wrap secondary">
+            <i class="fas fa-school"></i>
+          </div>
+          <div class="edu-badge secondary">Completed</div>
+        </div>
+        <div class="edu-card-body">
+          <h3 class="edu-degree">Senior Secondary — Science (PCM + CS)</h3>
+          <div class="edu-institute">DAV Public School, Kotkapura</div>
+          <div class="edu-meta">
+            <span><i class="fas fa-calendar-alt"></i> 2022 — 2024</span>
+            <span><i class="fas fa-map-marker-alt"></i> Punjab</span>
+          </div>
+          <div class="edu-cgpa-bar-wrap">
+            <div class="edu-cgpa-label">
+              <span>CBSE Board Score</span>
+              <span class="edu-cgpa-value">93%</span>
+            </div>
+            <div class="edu-cgpa-bar">
+              <div class="edu-cgpa-fill secondary" style="width: 93%"></div>
+            </div>
+          </div>
+          <div class="edu-tags">
+            <span class="edu-tag">Physics</span>
+            <span class="edu-tag">Chemistry</span>
+            <span class="edu-tag">Mathematics</span>
+            <span class="edu-tag">Biology</span>
+            <span class="edu-tag">Computer Science</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About & Skills Section -->
+  <section id="about" class="about fade-in-section">
+    <div class="section-header">
+      <h2 class="section-title">About Me & Skills</h2>
+      <p class="section-subtitle">Combining programming skills with statistical insights to build smart models</p>
+    </div>
+    
+    <div class="about-grid">
+      <div class="about-text">
+        <h3>Building Data-Driven AI Applications</h3>
+        <p>
+          I am a B.Tech student in Artificial Intelligence and Data Science at Chandigarh Group of Colleges, Jhanjeri (Batch 2024-2028). I maintain a solid academic record and focus on applying theoretical principles to real-world software and machine learning problems.
+        </p>
+        <p>
+          My interest lies in finding patterns in data, building predictive models, and packaging them into clean web portals that make intelligence accessible to everyone. From grievance automation to personalized education, I build interfaces that integrate smart APIs.
+        </p>
+        <div class="about-highlights">
+          <div class="highlight-box">
+            <i class="fas fa-brain"></i>
+            <div>
+              <div class="highlight-box-title">Machine Learning</div>
+              <div class="highlight-box-desc">Supervised and unsupervised model creation.</div>
+            </div>
+          </div>
+          <div class="highlight-box">
+            <i class="fas fa-database"></i>
+            <div>
+              <div class="highlight-box-title">Data Engineering</div>
+              <div class="highlight-box-desc">Preprocessing datasets, EDA, statistical insights.</div>
+            </div>
+          </div>
+        </div>
+        <a href="Prachi_Garg_Resume.docx" download="Prachi_Garg_Resume.docx" class="btn btn-primary" style="margin-top: 30px;"><i class="fas fa-download"></i> Download Full Resume (DOCX)</a>
+      </div>
+
+      <!-- Skills Tabbed Navigation -->
+      <div class="skills-container">
+        <div class="skill-tabs">
+          <button class="tab-btn active" data-tab="dataScience">Data Science & ML</button>
+          <button class="tab-btn" data-tab="languages">Languages & Dev</button>
+          <button class="tab-btn" data-tab="libraries">Tools & Concepts</button>
+        </div>
+
+        <!-- Data Science Tab -->
+        <div id="dataScience" class="skill-content active">
+          <div class="skills-grid">
+            <div class="skill-card">
+              <span class="skill-icon">📊</span>
+              <span>EDA</span>
+              <div class="skill-level">Exploratory Analysis</div>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon">🧹</span>
+              <span>Data Prep</span>
+              <div class="skill-level">Cleaning & Processing</div>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon">📈</span>
+              <span>Statistics</span>
+              <div class="skill-level">Hypothesis & Analysis</div>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon">⚙️</span>
+              <span>ML Algoriths</span>
+              <div class="skill-level">Supervised/Unsupervised</div>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon">🌳</span>
+              <span>Decision Trees</span>
+              <div class="skill-level">Model Architectures</div>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon">🤖</span>
+              <span>Deep Learning</span>
+              <div class="skill-level">Neural Nets</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Languages & Dev Tab -->
+        <div id="languages" class="skill-content">
+          <div class="skills-grid">
+            <div class="skill-card">
+              <span class="skill-icon"><i class="fab fa-python" style="color: #3776ab;"></i></span>
+              <span>Python</span>
+              <div class="skill-level">Core & DS Scripts</div>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon"><i class="fas fa-database" style="color: #00758f;"></i></span>
+              <span>SQL</span>
+              <div class="skill-level">Database Queries</div>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon">C++</span>
+              <span>C++</span>
+              <div class="skill-level">DSA Practice</div>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon"><i class="fab fa-java" style="color: #f89820;"></i></span>
+              <span>Java</span>
+              <div class="skill-level">Object Oriented</div>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon"><i class="fab fa-js" style="color: #f7df1e;"></i></span>
+              <span>JavaScript</span>
+              <div class="skill-level">Basic UI Scripting</div>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon"><i class="fab fa-html5" style="color: #e34c26;"></i></span>
+              <span>HTML & CSS</span>
+              <div class="skill-level">Responsive Views</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools Tab -->
+        <div id="libraries" class="skill-content">
+          <div class="skills-grid">
+            <div class="skill-card">
+              <span class="skill-icon">🐍</span>
+              <span>NumPy & Pandas</span>
+              <div class="skill-level">Data Wrangling</div>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon">📉</span>
+              <span>Matplotlib</span>
+              <div class="skill-level">Plotting & Charts</div>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon">🧠</span>
+              <span>scikit-learn</span>
+              <div class="skill-level">Predictive Models</div>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon"><i class="fab fa-git-alt" style="color: #f1502f;"></i></span>
+              <span>Git & GitHub</span>
+              <div class="skill-level">Version Control</div>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon">🔍</span>
+              <span>Core CS</span>
+              <div class="skill-level">DSA & OOPs</div>
+            </div>
+            <div class="skill-card">
+              <span class="skill-icon">🗨️</span>
+              <span>NLP</span>
+              <div class="skill-level">Language Processing</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline Section: Experience & Leadership -->
+  <section id="experience" class="timeline-section fade-in-section">
+    <div class="section-header">
+      <h2 class="section-title">Experience & Leadership</h2>
+      <p class="section-subtitle">My professional internships and college student leadership timeline</p>
+    </div>
+
+    <div class="timeline">
+      <!-- Item 1: Cybercore Technologies -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card glass-panel">
+          <span class="timeline-date">June 2026 – July 2026</span>
+          <h3 class="timeline-title">AI & ML Intern</h3>
+          <div class="timeline-org">Cybercore Technologies</div>
+          <div class="timeline-desc">
+            <ul>
+              <li>Worked on building and deploying Artificial Intelligence and Machine Learning models.</li>
+              <li>Analyzed diverse datasets to extract meaningful insights and clean inputs.</li>
+              <li>Collaborated with tech teams to translate model outputs into functional application endpoints.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 2: Thiranex -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card glass-panel">
+          <span class="timeline-date">2026 (Ongoing)</span>
+          <h3 class="timeline-title">Data Science Intern</h3>
+          <div class="timeline-org">Thiranex</div>
+          <div class="timeline-desc">
+            <ul>
+              <li>Acquired hands-on exposure to practical data cleaning and analytics pipelines.</li>
+              <li>Used Python scripting with libraries like Pandas, NumPy, and scikit-learn.</li>
+              <li>Resolved data quality bottlenecks to improve statistical model accuracy.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3: ACM CGC University Event Coordinator -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card glass-panel">
+          <span class="timeline-date">2025 – 2026</span>
+          <h3 class="timeline-title">Event Coordinator</h3>
+          <div class="timeline-org">ACM Student Chapter, CGC University</div>
+          <div class="timeline-desc">
+            <ul>
+              <li>Organized and managed multiple student tech events, hackathons, and programming seminars.</li>
+              <li>Coordinated schedule structures, volunteer responsibilities, and participant registrations.</li>
+              <li>Enhanced campus engagement with emerging developer technologies and code practices.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects fade-in-section">
+    <div class="section-header">
+      <h2 class="section-title">Projects Showcase</h2>
+      <p class="section-subtitle">Real-world AI and Web application systems that I have built (Click any image to view in full screen)</p>
+    </div>
+
+    <div class="projects-grid">
+      <!-- Project 1: CogniClassAI (with carousel) -->
+      <div class="project-card glass-panel">
+        
+        <!-- Interactive Slideshow Container -->
+        <div class="project-image-wrapper" id="cogniclassCarousel">
+          <!-- Slides -->
+          <div class="project-slide cogniclass-slide fade active">
+            <img src="assets/cogniclass_4.png" alt="CogniClass AI Live Stats dashboard" class="project-img">
+            <div class="slide-caption">Active Live Classroom Tracking Dashboard</div>
+          </div>
+          <div class="project-slide cogniclass-slide fade">
+            <img src="assets/cogniclass_1.png" alt="CogniClass AI Features overview" class="project-img">
+            <div class="slide-caption">Translation, Whiteboard, and Performance Reports</div>
+          </div>
+          <div class="project-slide cogniclass-slide fade">
+            <img src="assets/cogniclass_2.png" alt="CogniClass AI Teacher and Student tools" class="project-img">
+            <div class="slide-caption">Interactive AI Tools for Smart Teaching</div>
+          </div>
+          <div class="project-slide cogniclass-slide fade">
+            <img src="assets/cogniclass_3.png" alt="CogniClass AI Student and Teacher role summary" class="project-img">
+            <div class="slide-caption">User Role Activities & Key Performance Stats</div>
+          </div>
+          <div class="project-slide cogniclass-slide fade">
+            <img src="assets/cogniclass_5.png" alt="CogniClass AI workflow roadmap" class="project-img">
+            <div class="slide-caption">Step-by-step Class Integration Roadmap</div>
+          </div>
+          
+          <!-- Arrows -->
+          <a class="prev-slide" onclick="changeSlide(-1, 'cogniclass')">&#10094;</a>
+          <a class="next-slide" onclick="changeSlide(1, 'cogniclass')">&#10095;</a>
+          
+          <!-- Slider dots overlay -->
+          <div class="slide-dots">
+            <span class="slide-dot-indicator active" onclick="setSlide(0, 'cogniclass')"></span>
+            <span class="slide-dot-indicator" onclick="setSlide(1, 'cogniclass')"></span>
+            <span class="slide-dot-indicator" onclick="setSlide(2, 'cogniclass')"></span>
+            <span class="slide-dot-indicator" onclick="setSlide(3, 'cogniclass')"></span>
+            <span class="slide-dot-indicator" onclick="setSlide(4, 'cogniclass')"></span>
+          </div>
+        </div>
+
+        <div class="project-info">
+          <span class="project-tag">AI Educational Platform</span>
+          <h3 class="project-title">CogniClass AI</h3>
+          <p class="project-description">
+            An advanced AI-powered educational dashboard built to provide real-time understanding scores, classroom feedback loops, student groupings, and automated doubt detection. Integrates multilingual translation and performance reporting to help teachers deliver personalized, structured lectures.
+          </p>
+          <div class="project-skills">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">AI Integration</span>
+            <span class="skill-tag">Git & GitHub</span>
+          </div>
+          <div class="project-actions" style="margin-top: 20px;">
+            <a href="https://github.com/prachigarg1511" target="_blank" class="btn btn-secondary btn-sm"><i class="fab fa-github"></i> Repository</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: GovPortal (with carousel) -->
+      <div class="project-card glass-panel">
+        
+        <!-- Interactive Slideshow Container -->
+        <div class="project-image-wrapper" id="govportalCarousel">
+          <!-- Slides -->
+          <div class="project-slide govportal-slide fade active">
+            <img src="assets/govportal_1.png" alt="GovPortal Leaderboard & AI Assistant" class="project-img">
+            <div class="slide-caption">Citizen Grievance Leaderboard & Chatbot Assistant</div>
+          </div>
+          <div class="project-slide govportal-slide fade">
+            <img src="assets/govportal_3.png" alt="GovPortal Analytics Dashboard" class="project-img">
+            <div class="slide-caption">Grievance Distribution, Priority & Sentiment Analytics</div>
+          </div>
+          <div class="project-slide govportal-slide fade">
+            <img src="assets/govportal_4.png" alt="GovPortal Admin Control Panel" class="project-img">
+            <div class="slide-caption">Admin Control Center & Grievance Report Manager</div>
+          </div>
+          <div class="project-slide govportal-slide fade">
+            <img src="assets/govportal_5.png" alt="GovPortal OpenStreetMap Integration" class="project-img">
+            <div class="slide-caption">Real-time Public Grievance Transparency Map</div>
+          </div>
+          <div class="project-slide govportal-slide fade">
+            <img src="assets/govportal_2.png" alt="GovPortal Hindi translation panel" class="project-img">
+            <div class="slide-caption">Multi-lingual Grievance Submission Dashboard (Hindi)</div>
+          </div>
+          
+          <!-- Arrows -->
+          <a class="prev-slide" onclick="changeSlide(-1, 'govportal')">&#10094;</a>
+          <a class="next-slide" onclick="changeSlide(1, 'govportal')">&#10095;</a>
+          
+          <!-- Slider dots overlay -->
+          <div class="slide-dots">
+            <span class="slide-dot-indicator active" onclick="setSlide(0, 'govportal')"></span>
+            <span class="slide-dot-indicator" onclick="setSlide(1, 'govportal')"></span>
+            <span class="slide-dot-indicator" onclick="setSlide(2, 'govportal')"></span>
+            <span class="slide-dot-indicator" onclick="setSlide(3, 'govportal')"></span>
+            <span class="slide-dot-indicator" onclick="setSlide(4, 'govportal')"></span>
+          </div>
+        </div>
+
+        <div class="project-info">
+          <span class="project-tag">AI Grievance Tracker</span>
+          <h3 class="project-title">GovPortal</h3>
+          <p class="project-description">
+            An AI-Based Complaint & Grievance System designed to streamline citizen grievances. The platform automatically scans user-submitted issues, categorizes categories dynamically, routes them to proper government departments, tracks resolution status, and displays real-time analytics to improve transparency.
+          </p>
+          <div class="project-skills">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">AI Routing</span>
+            <span class="skill-tag">UI/UX Design</span>
+            <span class="skill-tag">Problem Solving</span>
+          </div>
+          <div class="project-actions" style="margin-top: 20px;">
+            <a href="https://github.com/prachigarg1511" target="_blank" class="btn btn-secondary btn-sm"><i class="fab fa-github"></i> Repository</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3: PrepOS (with carousel) -->
+      <div class="project-card glass-panel">
+        
+        <!-- Interactive Slideshow Container -->
+        <div class="project-image-wrapper" id="preposCarousel">
+          <!-- Slides -->
+          <div class="project-slide prepos-slide fade active">
+            <img src="assets/prepos_1.png" alt="PrepOS placement journey hero and dashboard" class="project-img">
+            <div class="slide-caption">AI-Powered Placement Preparation Dashboard</div>
+          </div>
+          <div class="project-slide prepos-slide fade">
+            <img src="assets/prepos_2.png" alt="PrepOS 3-step setup and flow" class="project-img">
+            <div class="slide-caption">Simple 3-Step Setup: Log In, Upload & Engage, and Get Placed</div>
+          </div>
+          <div class="project-slide prepos-slide fade">
+            <img src="assets/prepos_3.png" alt="PrepOS placement tracking widgets" class="project-img">
+            <div class="slide-caption">Real-Time Interview Scoring and Prep Analytics widgets</div>
+          </div>
+          <div class="project-slide prepos-slide fade">
+            <img src="assets/prepos_4.png" alt="PrepOS toolset overview" class="project-img">
+            <div class="slide-caption">Kanban Tracker, AI Study Copilot, and AI Mock Interviewer features</div>
+          </div>
+          <div class="project-slide prepos-slide fade">
+            <img src="assets/prepos_5.png" alt="PrepOS live dashboards" class="project-img">
+            <div class="slide-caption">Performance Score Cards, Applications Tracker, and Syllabus Extraction</div>
+          </div>
+          
+          <!-- Arrows -->
+          <a class="prev-slide" onclick="changeSlide(-1, 'prepos')">&#10094;</a>
+          <a class="next-slide" onclick="changeSlide(1, 'prepos')">&#10095;</a>
+          
+          <!-- Slider dots overlay -->
+          <div class="slide-dots">
+            <span class="slide-dot-indicator active" onclick="setSlide(0, 'prepos')"></span>
+            <span class="slide-dot-indicator" onclick="setSlide(1, 'prepos')"></span>
+            <span class="slide-dot-indicator" onclick="setSlide(2, 'prepos')"></span>
+            <span class="slide-dot-indicator" onclick="setSlide(3, 'prepos')"></span>
+            <span class="slide-dot-indicator" onclick="setSlide(4, 'prepos')"></span>
+          </div>
+        </div>
+
+        <div class="project-info">
+          <span class="project-tag">AI Career & Placement Platform</span>
+          <h3 class="project-title">PrepOS</h3>
+          <p class="project-description">
+            A state-of-the-art career preparation platform. Features a live AI Mock Interviewer with voice-to-text feedback and scoring, a visual Kanban Placement Tracker for application pipelines, and an AI Study Copilot that extracts key takeaways and creates flashcards from uploaded course documents.
+          </p>
+          <div class="project-skills">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">AI Mock Interview</span>
+            <span class="skill-tag">Kanban Tracker</span>
+            <span class="skill-tag">Gemini API</span>
+          </div>
+          <div class="project-actions" style="margin-top: 20px;">
+            <a href="https://github.com/prachigarg1511/PrepOS" target="_blank" class="btn btn-secondary btn-sm"><i class="fab fa-github"></i> Repository</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Lightbox Modal for Image Expansion -->
+  <div id="lightboxModal" class="lightbox">
+    <span class="close-lightbox">&times;</span>
+    <img class="lightbox-content" id="lightboxImg" alt="Expanded project screenshot">
+    <div id="lightboxCaption" class="lightbox-caption"></div>
+  </div>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="certifications-section fade-in-section">
+    <div class="section-header">
+      <h2 class="section-title">Certifications</h2>
+      <p class="section-subtitle">Credential records issued by standard universities and learning portals</p>
+    </div>
+
+    <div class="certs-grid">
+      <!-- Cert 1 -->
+      <div class="cert-card glass-panel">
+        <div class="cert-icon"><i class="fab fa-python"></i></div>
+        <h3 class="cert-title">Introduction to Python</h3>
+        <div class="cert-org">Infosys Springboard</div>
+      </div>
+
+      <!-- Cert 2 -->
+      <div class="cert-card glass-panel">
+        <div class="cert-icon"><i class="fas fa-brain"></i></div>
+        <h3 class="cert-title">AI on the Go With Jetson Nano</h3>
+        <div class="cert-org">Certified by Nasscom</div>
+      </div>
+
+      <!-- Cert 3 -->
+      <div class="cert-card glass-panel">
+        <div class="cert-icon"><i class="fas fa-laptop-code"></i></div>
+        <h3 class="cert-title">Data Structure & Algorithm</h3>
+        <div class="cert-org">Certified by TuteDude IIT Delhi Alumni</div>
+      </div>
+
+      <!-- Cert 4 -->
+      <div class="cert-card glass-panel">
+        <div class="cert-icon"><i class="fas fa-chart-line"></i></div>
+        <h3 class="cert-title">Power BI Data Analyst</h3>
+        <div class="cert-org">Certified by TuteDude IIT Delhi Alumni</div>
+      </div>
+
+      <!-- Cert 5 -->
+      <div class="cert-card glass-panel">
+        <div class="cert-icon"><i class="fas fa-mobile-alt"></i></div>
+        <h3 class="cert-title">App Development</h3>
+        <div class="cert-org">Nasscom</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements/Participation Grid -->
+  <section class="achievements fade-in-section">
+    <div class="section-header">
+      <h2 class="section-title">Achievements & Participation</h2>
+      <p class="section-subtitle">Hackathons, practice metrics, and structural achievements</p>
+    </div>
+
+    <div class="achievements-grid">
+      <div class="achievement-card glass-panel">
+        <div class="achievement-number">01</div>
+        <div>
+          <h3 class="achievement-title">Inter-College Hackathons</h3>
+          <p class="achievement-desc">Participated in university and inter-college level hackathons. Collaborated under high-pressure time constraints to formulate and present functional tech implementations.</p>
+        </div>
+      </div>
+
+      <div class="achievement-card glass-panel">
+        <div class="achievement-number">02</div>
+        <div>
+          <h3 class="achievement-title">DSA Regular Practice</h3>
+          <p class="achievement-desc">Engaged in daily algorithm reviews and challenges on online competitive coding portals, honing knowledge of complex data structures and complexity profiles.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What I'm Learning Section -->
+  <section id="learning" class="learning-section fade-in-section">
+    <div class="section-header">
+      <h2 class="section-title">What I'm Learning</h2>
+      <p class="section-subtitle">Skills, technologies &amp; concepts I'm actively exploring right now</p>
+    </div>
+
+    <div class="learning-grid">
+
+      <div class="learning-card glass-panel">
+        <div class="learning-icon"><i class="fas fa-robot"></i></div>
+        <div class="learning-status active-status">Actively Studying</div>
+        <h3 class="learning-title">Deep Learning &amp; Neural Networks</h3>
+        <p class="learning-desc">Exploring CNNs, RNNs, and transformer architectures. Implementing models with TensorFlow and PyTorch for image classification and NLP tasks.</p>
+        <div class="learning-progress-wrap">
+          <div class="learning-progress-bar" style="width: 60%"></div>
+        </div>
+        <div class="learning-tags">
+          <span class="skill-tag">TensorFlow</span>
+          <span class="skill-tag">PyTorch</span>
+          <span class="skill-tag">CNNs</span>
+        </div>
+      </div>
+
+      <div class="learning-card glass-panel">
+        <div class="learning-icon cyan"><i class="fas fa-chart-bar"></i></div>
+        <div class="learning-status active-status">Actively Studying</div>
+        <h3 class="learning-title">Advanced Data Visualization</h3>
+        <p class="learning-desc">Building interactive dashboards and charts using Plotly, Seaborn, and Power BI to communicate complex data insights clearly and beautifully.</p>
+        <div class="learning-progress-wrap">
+          <div class="learning-progress-bar cyan-bar" style="width: 70%"></div>
+        </div>
+        <div class="learning-tags">
+          <span class="skill-tag">Plotly</span>
+          <span class="skill-tag">Seaborn</span>
+          <span class="skill-tag">Power BI</span>
+        </div>
+      </div>
+
+      <div class="learning-card glass-panel">
+        <div class="learning-icon pink"><i class="fas fa-code-branch"></i></div>
+        <div class="learning-status exploring-status">Exploring</div>
+        <h3 class="learning-title">Large Language Models &amp; Prompt Engineering</h3>
+        <p class="learning-desc">Learning how to fine-tune and effectively prompt LLMs via APIs (Gemini, OpenAI) to build intelligent applications with meaningful context handling.</p>
+        <div class="learning-progress-wrap">
+          <div class="learning-progress-bar pink-bar" style="width: 45%"></div>
+        </div>
+        <div class="learning-tags">
+          <span class="skill-tag">Gemini API</span>
+          <span class="skill-tag">Prompt Eng.</span>
+          <span class="skill-tag">RAG</span>
+        </div>
+      </div>
+
+      <div class="learning-card glass-panel">
+        <div class="learning-icon"><i class="fas fa-database"></i></div>
+        <div class="learning-status active-status">Actively Studying</div>
+        <h3 class="learning-title">Advanced SQL &amp; NoSQL Databases</h3>
+        <p class="learning-desc">Deepening knowledge in complex joins, window functions, query optimization, and exploring MongoDB for unstructured data use cases.</p>
+        <div class="learning-progress-wrap">
+          <div class="learning-progress-bar" style="width: 65%"></div>
+        </div>
+        <div class="learning-tags">
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">Query Opt.</span>
+        </div>
+      </div>
+
+      <div class="learning-card glass-panel">
+        <div class="learning-icon cyan"><i class="fas fa-project-diagram"></i></div>
+        <div class="learning-status exploring-status">Exploring</div>
+        <h3 class="learning-title">MLOps &amp; Model Deployment</h3>
+        <p class="learning-desc">Understanding how to take ML models from notebooks to production — containerization with Docker, REST APIs with Flask, and basic CI/CD pipelines.</p>
+        <div class="learning-progress-wrap">
+          <div class="learning-progress-bar cyan-bar" style="width: 30%"></div>
+        </div>
+        <div class="learning-tags">
+          <span class="skill-tag">Flask</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">REST APIs</span>
+        </div>
+      </div>
+
+      <div class="learning-card glass-panel">
+        <div class="learning-icon pink"><i class="fas fa-stream"></i></div>
+        <div class="learning-status exploring-status">Exploring</div>
+        <h3 class="learning-title">Competitive Problem Solving</h3>
+        <p class="learning-desc">Regularly practicing algorithmic challenges on LeetCode and GeeksForGeeks. Strengthening dynamic programming, graphs, and greedy algorithm patterns.</p>
+        <div class="learning-progress-wrap">
+          <div class="learning-progress-bar pink-bar" style="width: 55%"></div>
+        </div>
+        <div class="learning-tags">
+          <span class="skill-tag">LeetCode</span>
+          <span class="skill-tag">Graphs</span>
+          <span class="skill-tag">DP</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact fade-in-section">
+    <div class="section-header">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-subtitle">Let's collaborate on data-driven models, AI projects, or internships</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info-cards">
+        <a href="mailto:prachigarg1511@gmail.com" class="contact-info-card glass-panel">
+          <div class="contact-info-icon"><i class="fas fa-envelope"></i></div>
+          <div class="contact-info-content">
+            <h4>Email</h4>
+            <p>prachigarg1511@gmail.com</p>
+          </div>
+        </a>
+
+        <a href="tel:+919781085644" class="contact-info-card glass-panel">
+          <div class="contact-info-icon"><i class="fas fa-phone"></i></div>
+          <div class="contact-info-content">
+            <h4>Phone</h4>
+            <p>+91 9781085644</p>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/prachi-garg-a37345327/" target="_blank" class="contact-info-card glass-panel">
+          <div class="contact-info-icon"><i class="fab fa-linkedin"></i></div>
+          <div class="contact-info-content">
+            <h4>LinkedIn</h4>
+            <p>prachi-garg-a37345327</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Contact Form Panel -->
+      <div class="contact-form-panel glass-panel">
+        <form id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder=" " required class="form-input">
+            <label for="name" class="form-label">Full Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder=" " required class="form-input">
+            <label for="email" class="form-label">Email Address</label>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" placeholder=" " required class="form-input">
+            <label for="subject" class="form-label">Subject</label>
+          </div>
+          <div class="form-group">
+            <textarea id="message" placeholder=" " required class="form-input"></textarea>
+            <label for="message" class="form-label">Your Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message <i class="fas fa-paper-plane"></i></button>
+          <div id="formStatus" class="form-status"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <a href="#" class="footer-logo">Prachi<span>Garg</span></a>
+      <p class="footer-text">&copy; 2026 Prachi Garg. All Rights Reserved. Created as a professional portfolio.</p>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- JavaScript Code -->
+  <script src="portfolio.js"></script>
+</body>
+</html>
