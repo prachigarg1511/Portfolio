@@ -1,189 +1,181 @@
-# 🚀 Project Name
+# 🚀 Prachi Garg — Personal Portfolio
 
-<p align="center">
-  <img src="assets/logo.png" alt="Project Logo" width="180"/>
-</p>
+> **Aspiring Data Science & AI/ML Engineer | B.Tech AI & DS | CGPA 9.78/10**
 
-<p align="center">
-  <strong>Short description of your project goes here.</strong>
-</p>
-
-<p align="center">
-
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![Status](https://img.shields.io/badge/status-active-success)
-![GitHub Stars](https://img.shields.io/github/stars/USERNAME/REPOSITORY?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/USERNAME/REPOSITORY?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/USERNAME/REPOSITORY)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/USERNAME/REPOSITORY)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/USERNAME/REPOSITORY)
-
-</p>
+A professionally designed, fully responsive single-page portfolio built with pure HTML, CSS, and JavaScript. It showcases my academic background, technical skills, internship experience, AI/ML projects, certifications, and ways to connect.
 
 ---
 
-# 📖 About
+## 🌐 Live Preview
 
-Project Name is a modern, scalable, and easy-to-use application designed to solve **[problem statement]**. It focuses on providing an intuitive user experience, clean architecture, and high performance.
-
----
-
-# ✨ Features
-
-- 🚀 Fast Performance
-- 📱 Responsive Design
-- 🔒 Secure Authentication
-- 🎨 Clean UI
-- ⚡ Optimized Code
-- 🌙 Dark Mode (Optional)
-- 📊 Analytics Dashboard
-- 🛠 Easy Customization
+Open `index.html` locally in any modern browser to view the portfolio.
 
 ---
 
-# 🛠 Built With
+## 📁 Project Structure
 
-<p align="left">
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
-<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white">
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
-
-</p>
-
----
-
-# 📂 Project Structure
-
-```text
-Project/
+```
+Portfolio/
 │
-├── assets/
-├── src/
-├── components/
-├── pages/
-├── public/
-├── package.json
-├── README.md
-└── LICENSE
+├── index.html               # Main entry-point — portfolio page
+├── portfolio.css            # Primary stylesheet with design system
+├── portfolio.js             # Core JavaScript — animations, typewriter, carousels, etc.
+├── index.css                # Additional / alternate CSS styles
+├── index.js                 # Additional JavaScript utilities
+│
+├── assets/                  # Project screenshots used in slideshows
+│   ├── cogniclass_1.png – cogniclass_5.png   # CogniClass AI screenshots
+│   ├── govportal_1.png  – govportal_5.png    # GovPortal screenshots
+│   └── prepos_1.png     – prepos_5.png       # PrepOS screenshots
+│
+├── Prachi Garg Resume new.pdf   # PDF version of resume
+└── Prachi_Garg_Resume.docx      # DOCX version of resume (downloadable from site)
 ```
 
 ---
 
-# ⚙️ Installation
+## ✨ Features
+
+| Feature | Details |
+|---|---|
+| **Dark Glassmorphic Design** | Premium dark theme with frosted-glass card panels and glowing gradient orbs |
+| **Typewriter Animation** | Animated role titles cycle in the hero section |
+| **Scroll Progress Bar** | Thin gradient bar tracks reading progress at the top |
+| **Smooth Fade-In Sections** | Intersection Observer triggers reveal animations as you scroll |
+| **Stats Counter** | Animated number counters for CGPA, internships, certs, and delivery rate |
+| **Tabbed Skills Grid** | Three-tab layout — Data Science & ML / Languages & Dev / Tools & Concepts |
+| **Timeline Experience** | Vertical timeline for internships and leadership roles |
+| **Project Carousels** | Interactive slideshow for each project with prev/next arrows and dot indicators |
+| **Lightbox Modal** | Click any project image to expand it in a full-screen lightbox |
+| **Learning Section** | Progress bar cards for technologies actively being studied |
+| **Contact Form** | Floating-label form panel with live status feedback |
+| **Mobile Responsive** | Hamburger menu and fluid grid for all screen sizes |
+| **Back-to-Top Button** | Floating button appears on scroll for quick navigation |
+
+---
+
+## 🗂️ Sections
+
+1. **Hero** — Introduction, CTA buttons, social links, and a stats dashboard widget
+2. **Stats Counter** — Animated highlight metrics (CGPA, internships, certs, delivery)
+3. **Education** — B.Tech (AI & DS) at CGC Jhanjeri + Senior Secondary at DAV, Kotkapura
+4. **About & Skills** — Bio paragraph and tabbed skill cards
+5. **Experience & Leadership** — Timeline with internship and ACM coordinator roles
+6. **Projects Showcase** — Carousel slideshows for CogniClass AI, GovPortal, and PrepOS
+7. **Certifications** — Five professional certifications (Infosys, Nasscom, TuteDude)
+8. **Achievements** — Hackathon participation and DSA regular practice
+9. **What I'm Learning** — Six cards with progress bars for current learning goals
+10. **Contact** — Email, phone, LinkedIn info cards + contact form
+
+---
+
+## 💼 Featured Projects
+
+### 🧠 CogniClass AI
+> *AI Educational Platform*
+
+An advanced AI-powered educational dashboard providing real-time classroom understanding scores, automated doubt detection, student groupings, multilingual translation, and performance reporting.
+
+**Stack:** HTML · CSS · JavaScript · AI Integration · Git
+
+---
+
+### 🏛️ GovPortal
+> *AI Grievance Tracker*
+
+An AI-based complaint & grievance system for citizens. Automatically categorizes, routes, and tracks government complaints with real-time analytics, an AI chatbot assistant, and a transparency map.
+
+**Stack:** HTML · CSS · JavaScript · AI Routing · UI/UX Design
+
+---
+
+### 🎯 PrepOS
+> *AI Career & Placement Platform*
+
+A career preparation platform with a live AI Mock Interviewer (voice-to-text scoring), a visual Kanban Placement Tracker, and an AI Study Copilot that generates flashcards from uploaded documents.
+
+**Stack:** HTML · CSS · JavaScript · Gemini API · Kanban Tracker
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|---|---|
+| **Languages** | Python, C++, Java, SQL, JavaScript, HTML & CSS |
+| **ML / Data Science** | scikit-learn, NumPy, Pandas, Matplotlib, EDA, Statistics |
+| **Deep Learning** | TensorFlow, PyTorch, CNNs, RNNs |
+| **Visualization** | Plotly, Seaborn, Power BI |
+| **AI / APIs** | Gemini API, OpenAI, Prompt Engineering, RAG |
+| **Databases** | PostgreSQL, MongoDB, MySQL |
+| **DevOps & Tools** | Git & GitHub, Flask, Docker, REST APIs |
+| **Concepts** | DSA, OOPs, NLP, MLOps |
+
+---
+
+## 🎓 Education
+
+| Degree | Institution | Year | Score |
+|---|---|---|---|
+| B.Tech — AI & Data Science | Chandigarh Group of Colleges, Jhanjeri | 2024 – 2028 | **9.78 CGPA** |
+| Senior Secondary — PCM + CS | DAV Public School, Kotkapura | 2022 – 2024 | **93%** |
+
+---
+
+## 📜 Certifications
+
+- 🐍 **Introduction to Python** — Infosys Springboard
+- 🤖 **AI on the Go With Jetson Nano** — Nasscom
+- 💻 **Data Structure & Algorithm** — TuteDude (IIT Delhi Alumni)
+- 📊 **Power BI Data Analyst** — TuteDude (IIT Delhi Alumni)
+- 📱 **App Development** — Nasscom
+
+---
+
+## 💼 Experience
+
+| Role | Organization | Period |
+|---|---|---|
+| AI & ML Intern | Cybercore Technologies | June 2026 – July 2026 |
+| Data Science Intern | Thiranex | 2026 (Ongoing) |
+| Event Coordinator | ACM Student Chapter, CGC University | 2025 – 2026 |
+
+---
+
+## 📬 Contact
+
+| Channel | Details |
+|---|---|
+| 📧 Email | [prachigarg1511@gmail.com](mailto:prachigarg1511@gmail.com) |
+| 📞 Phone | +91 9781085644 |
+| 💼 LinkedIn | [prachi-garg-a37345327](https://www.linkedin.com/in/prachi-garg-a37345327/) |
+| 🐙 GitHub | [prachigarg1511](https://github.com/prachigarg1511) |
+| 🧩 LeetCode | [prachigarg1511](https://leetcode.com/prachigarg1511) |
+
+---
+
+## 🚀 Running Locally
+
+No build tools or dependencies are required — this is a pure static website.
 
 ```bash
-# Clone repository
-git clone https://github.com/USERNAME/REPOSITORY.git
+# Clone the repository
+git clone https://github.com/prachigarg1511/<repo-name>.git
 
-# Go to project folder
-cd REPOSITORY
+# Navigate into the folder
+cd Portfolio
 
-# Install dependencies
-npm install
+# Open in browser (Windows)
+start index.html
 
-# Run project
-npm start
+# Or simply double-click index.html in File Explorer
 ```
 
----
-
-# 🚀 Usage
-
-```bash
-npm run dev
-```
-
-or
-
-```bash
-npm start
-```
+> **Note:** FontAwesome icons are loaded via CDN. An internet connection is required for icons to render correctly.
 
 ---
 
-# 📸 Screenshots
+## 📄 License
 
-| Home | Dashboard |
-|------|-----------|
-| Add Screenshot | Add Screenshot |
-
----
-
-# 📦 Dependencies
-
-- React
-- Node.js
-- Express
-- MongoDB
-- Axios
-
----
-
-# 🤝 Contributing
-
-Contributions are always welcome!
-
-1. Fork the repository
-2. Create your feature branch
-
-```bash
-git checkout -b feature/AmazingFeature
-```
-
-3. Commit your changes
-
-```bash
-git commit -m "Add AmazingFeature"
-```
-
-4. Push to the branch
-
-```bash
-git push origin feature/AmazingFeature
-```
-
-5. Open a Pull Request
-
----
-
-# 📜 License
-
-This project is licensed under the **MIT License**.
-
-See the **LICENSE** file for more details.
-
----
-
-# 👨‍💻 Author
-
-**Your Name**
-
-GitHub: https://github.com/USERNAME
-
-LinkedIn: https://linkedin.com/in/USERNAME
-
-Email: your@email.com
-
----
-
-# ⭐ Show Your Support
-
-If you found this project helpful, please consider:
-
-⭐ Starring the repository
-
-🍴 Forking the project
-
-🛠 Contributing to the project
-
----
-
-<p align="center">
-Made with ❤️ by <b>Your Name</b>
-</p>
+© 2026 Prachi Garg. All Rights Reserved.  
+This portfolio is for personal showcase and demonstration purposes.
